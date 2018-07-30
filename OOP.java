@@ -7,10 +7,12 @@ public class OOP{
     s.setName("Bob the Encapsulator");
     System.out.println(s.getName());
 
-    //Polymorphism example. Student extends Person and overrides walk()
+    //Polymorphism example. Student extends (Inherits) Person and overrides walk()
     Person p = new Person();
     p.walk();
     s.walk();
+    //Student doesn't have talk method, Person does, and Student extends Person so Student can use talk()
+    s.talk();
 
   }
 
