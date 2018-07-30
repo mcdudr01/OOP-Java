@@ -2,8 +2,11 @@ public class OOP{
   
   public static void main(String[] args) {
 
-    System.out.println("Hello World!");
+    Student s = new Student();
+    s.setName("Bob the Encapsulator");
     
+    System.out.println(s.getName());
+
   }
 
 }
